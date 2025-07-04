@@ -38,5 +38,7 @@ backend/*.log
 
 /backend/.vs/
 /backend/.vscode/
-
+/backend/appsettings.Production.json
+/backend/appsettings.Development.json
+/backend/appsettings.Local.json
 /backend/.cache/

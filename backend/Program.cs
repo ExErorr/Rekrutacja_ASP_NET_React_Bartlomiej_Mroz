@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
 });
 
 // Add services to the container.
-builder.Services.AddSingleton<KontrahentService>();
+builder.Services.AddScoped<IKontrahentService, KontrahentService>();
 builder.Services.AddControllers();
 
 // Swagger config
