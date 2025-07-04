@@ -11,9 +11,6 @@ frontend/yarn-error.log*
 frontend/pnpm-debug.log*
 frontend/lerna-debug.log*
 
-/frontend/.env
-/frontend/.env.*.local
-
 /frontend/coverage/
 frontend/*.lcov
 
