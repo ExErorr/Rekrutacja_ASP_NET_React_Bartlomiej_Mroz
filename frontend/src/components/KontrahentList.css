@@ -1,0 +1,70 @@
+.kontrahenci-wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.add-btn {
+  padding: 0.7rem 1.2rem;
+  background-color: #2d8fdd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.kontrahent-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.kontrahent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kontrahent-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.additional-info {
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+}
+
+.additional-info li {
+  line-height: 1.5;
+}
+
+.action-buttons {
+  display: flex;
+}
+.icon-button {
+  width: 64px;
+  height: 64px;
+  margin-left: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button:hover {
+  opacity: 0.8;
+}
+
+.icon-button img {
+  width: 64px;
+  height: 64px;
+}
