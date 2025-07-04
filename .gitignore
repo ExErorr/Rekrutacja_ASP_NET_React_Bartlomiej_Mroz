@@ -38,6 +38,5 @@ backend/*.log
 
 /backend/.vs/
 /backend/.vscode/
-backend/appsettings.*.json
 
 /backend/.cache/
